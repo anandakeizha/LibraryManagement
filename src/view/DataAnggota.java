@@ -11,7 +11,7 @@ import model.Anggota;
 
 /**
  *
- * @author anandakeiza
+ * @author anandakeizaa
  */
 public class DataAnggota extends javax.swing.JFrame {
 
