@@ -218,6 +218,7 @@ public class LoginPage extends javax.swing.JFrame {
             return;
         }
         Util.petugas = petugas;
+        this.dispose();
         new DataBuku().setVisible(true);
     }//GEN-LAST:event_btnLoginActionPerformed
 

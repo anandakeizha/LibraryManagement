@@ -471,17 +471,20 @@ public class DataPeminjaman extends javax.swing.JFrame {
         fillTable();
     }//GEN-LAST:event_formWindowOpened
 
-    private void menuDataAnggotaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_menuDataAnggotaMouseClicked
+    private void menuDataAnggotaMouseClicked(java.awt.event.MouseEvent evt) {
+        this.dispose();
         new DataAnggota().setVisible(true);
-    }//GEN-LAST:event_menuDataAnggotaMouseClicked
+    }
 
-    private void menuDataBukuMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_menuDataBukuMouseClicked
+    private void menuDataBukuMouseClicked(java.awt.event.MouseEvent evt) {
+        this.dispose();
         new DataBuku().setVisible(true);
-    }//GEN-LAST:event_menuDataBukuMouseClicked
+    }
 
-    private void menuPeminjamanBukuMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_menuPeminjamanBukuMouseClicked
+    private void menuPeminjamanBukuMouseClicked(java.awt.event.MouseEvent evt) {
+        this.dispose();
         new DataPeminjaman().setVisible(true);
-    }//GEN-LAST:event_menuPeminjamanBukuMouseClicked
+    }
 
     private void tblPeminjamanMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblPeminjamanMouseClicked
         idPeminjaman = Integer.parseInt(tblPeminjaman.getValueAt(tblPeminjaman.getSelectedRow(), 0).toString());
