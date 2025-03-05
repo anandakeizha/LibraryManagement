@@ -20,7 +20,7 @@ import model.Petugas;
 
 /**
  *
- * @author anandakeiza
+ * @author anandakeiza tt
  */
 public class LoginPage extends javax.swing.JFrame {
 
